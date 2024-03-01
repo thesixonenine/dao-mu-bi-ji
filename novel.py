@@ -12,7 +12,7 @@ def main():
     # 目录的网址
     # baseurl = "https://www.daomubiji.com/dao-mu-bi-ji-1"
     base_name = 'she-zhao-gui-cheng'
-    article_link = "https://www.daomubiji.com/" + base_name + "-01.html"
+    article_link = "https://www.daomubiji.com/" + base_name + "-zhong-01.html"
     sub_dir = '5-' + base_name
     while len(article_link) != 0 and article_link.startswith('https://www.daomubiji.com/' + base_name):
         head = {
@@ -32,7 +32,7 @@ def main():
         article = article.replace('\n', '\n\n')
         # print(article)
         file_name = file_name_re.findall(article_link)[0]
-        # file_name = str(int(file_name) + 5)
+        file_name = str(int(file_name) + 29)
         with open(sub_dir + '/' + file_name + '.md', 'w', encoding='UTF-8', newline='\n') as f:
             f.write("# " + title + '\n')
             f.write(article)
