@@ -77,6 +77,7 @@
   * [第四十四章 脱皮](2-nu-hai-qian-sha/44.md)
   * [第四十五章 脱出](2-nu-hai-qian-sha/45.md)
   * [第四十六章 总结](2-nu-hai-qian-sha/46.md)
+* 盗墓笔记3：秦岭神树
   * [第一章 老痒出狱](3-qin-ling-shen-shu/01.md)
   * [第二章 六角铃铛](3-qin-ling-shen-shu/02.md)
   * [第三章 跟踪](3-qin-ling-shen-shu/03.md)
@@ -117,6 +118,7 @@
   * [第三十八章 真像](3-qin-ling-shen-shu/38.md)
   * [第三十九章 烛九阴](3-qin-ling-shen-shu/39.md)
   * [第四十章 脱出](3-qin-ling-shen-shu/40.md)
+* 盗墓笔记4：云顶天宫
   * [第一章 新的消息](4-yun-ding-tian-gong/01.md)
   * [第二章 二００七年第一炮](4-yun-ding-tian-gong/02.md)
   * [第三章 镜儿宫](4-yun-ding-tian-gong/03.md)
@@ -129,7 +131,6 @@
   * [第十章 营山村](4-yun-ding-tian-gong/10.md)
   * [第十一章 困境](4-yun-ding-tian-gong/11.md)
   * [第十二章 百足龙](4-yun-ding-tian-gong/12.md)
-  * [第十三章 缝隙（上）](4-yun-ding-tian-gong/14)
-  * [第十四章 缝隙（下）](4-yun-ding-tian-gong/14)
-  * [第十五章 双层壁画](4-yun-ding-tian-gong/15)
   * [第十三章 缝隙（上）](4-yun-ding-tian-gong/13.md)
+  * [第十四章 缝隙（下）](4-yun-ding-tian-gong/14.md)
+  * [第十五章 双层壁画](4-yun-ding-tian-gong/15.md)
