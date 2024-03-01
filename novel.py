@@ -11,9 +11,9 @@ file_name_re = re.compile("\\d{2}")
 def main():
     # 目录的网址
     # baseurl = "https://www.daomubiji.com/dao-mu-bi-ji-1"
-    article_link = "https://www.daomubiji.com/qi-xing-lu-wang-01.html"
-    sub_dir = '1-qi-xing-lu-wang-gong'
-    while len(article_link) != 0:
+    article_link = "https://www.daomubiji.com/nu-hai-qian-sha-01.html"
+    sub_dir = '2-nu-hai-qian-sha'
+    while len(article_link) != 0 and article_link.startswith('https://www.daomubiji.com/nu-hai-qian-sha'):
         head = {
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"}
         time.sleep(1)
@@ -34,7 +34,8 @@ def main():
         with open(sub_dir + '/' + file_name + '.md', 'w', encoding='UTF-8', newline='\n') as f:
             f.write("# " + title + '\n')
             f.write(article)
-
+        with open('SUMMARY.md', 'a', encoding='UTF-8', newline='\n') as f:
+            f.write("  * [" + title + '](' + sub_dir + '/' + file_name + '.md)\n')
         article_link = content.find('a', attrs={"rel": "next"}).attrs['href']
         print(article_link)
 
