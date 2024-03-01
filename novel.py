@@ -11,9 +11,10 @@ file_name_re = re.compile("\\d{2}")
 def main():
     # 目录的网址
     # baseurl = "https://www.daomubiji.com/dao-mu-bi-ji-1"
-    article_link = "https://www.daomubiji.com/nu-hai-qian-sha-01.html"
-    sub_dir = '2-nu-hai-qian-sha'
-    while len(article_link) != 0 and article_link.startswith('https://www.daomubiji.com/nu-hai-qian-sha'):
+    base_name = 'yun-ding-tian-gong'
+    article_link = "https://www.daomubiji.com/" + base_name + "-13.html"
+    sub_dir = '4-' + base_name
+    while len(article_link) != 0 and article_link.startswith('https://www.daomubiji.com/' + base_name):
         head = {
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36"}
         time.sleep(1)
