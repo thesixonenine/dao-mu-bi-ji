@@ -1,6 +1,6 @@
 # Table of contents
 
-* [盗墓笔记1：七星鲁王宫]
+* 盗墓笔记1：七星鲁王宫
   * [第一章 血尸](1-qi-xing-lu-wang-gong/01.md)
   * [第二章 五十年后](1-qi-xing-lu-wang-gong/02.md)
   * [第三章 瓜子庙](1-qi-xing-lu-wang-gong/03.md)
@@ -30,5 +30,5 @@
   * [第二十七章 谎言](1-qi-xing-lu-wang-gong/27.md)
   * [第二十八章 火](1-qi-xing-lu-wang-gong/28.md)
   * [第二十九章 紫金匣](1-qi-xing-lu-wang-gong/29.md)
-* [盗墓笔记2：怒海潜沙]
+* 盗墓笔记2：怒海潜沙
   * [第一章 蛇眉铜鱼](2-nu-hai-qian-sha/01.md)
