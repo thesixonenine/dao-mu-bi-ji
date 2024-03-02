@@ -299,3 +299,4 @@
   * [第一百一十六章 第三夜：入口](5-she-zhao-gui-cheng/116.md)
   * [第一百一十七章 第三夜：避难所](5-she-zhao-gui-cheng/117.md)
   * [第一百一十八章 第三夜：录像带](5-she-zhao-gui-cheng/118.md)
+* 盗墓笔记6：谜海归巢
