@@ -10,8 +10,8 @@ file_name_re = re.compile("\\d{2}")
 
 
 def main():
-    article_link = "https://www.daomubiji.com/2015-01.html"
-    sub_dir = '12-sha-hai'
+    article_link = "http://www.daomubiji.com/shahai01000-2.html"
+    sub_dir = '12-sha-hai-1'
     i = 1
     while len(article_link) != 0:
         head = {
@@ -25,7 +25,7 @@ def main():
         # print(content)
         title_split = content.find('h1', class_='article-title').text.split(' ')
         cp_code = str(i)
-        cp_code_cn = '第' + cn2an.an2cn(cp_code) + '章'
+        cp_code_cn = '第' + cn2an.an2cn(cp_code) + '章' + ' ' + title_split[3]
         title = cp_code_cn
         # print(title)
         article = content.find('article', class_="article-content").text
