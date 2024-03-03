@@ -320,3 +320,16 @@
   * [第十八章 陷坑](6-mi-hai-gui-chao/18.md)
   * [第十九章 水壶](6-mi-hai-gui-chao/19.md)
   * [第二十章 尾声（第一季大结局）](6-mi-hai-gui-chao/20.md)
+* 第二季 引子
+  * [第一章 盗墓笔记](7-season-2-yin-zi/01.md)
+  * [第二章 讨论](7-season-2-yin-zi/02.md)
+  * [第三章 第二张老照片](7-season-2-yin-zi/03.md)
+  * [第四章 同病相怜之人](7-season-2-yin-zi/04.md)
+  * [第五章 再次出发](7-season-2-yin-zi/05.md)
+  * [第六章 继承](7-season-2-yin-zi/06.md)
+  * [第七章 影子传说](7-season-2-yin-zi/07.md)
+  * [第八章 照片的谜团](7-season-2-yin-zi/08.md)
+  * [第九章 档案](7-season-2-yin-zi/09.md)
+  * [第十章 老鼠](7-season-2-yin-zi/10.md)
+  * [第十一章 面人](7-season-2-yin-zi/11.md)
+* 盗墓笔记7：阴山古楼
