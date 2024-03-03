@@ -391,3 +391,8 @@
   * [第五十五章 不速之客](8-yin-shan-gu-lou/55.md)
   * [第五十六章 使坏](8-yin-shan-gu-lou/56.md)
 * 盗墓笔记8：邛笼石影
+  * [第一章 兜圈](9-qiong-long-shi-ying/01.md)
+  * [第二章 老档案](9-qiong-long-shi-ying/02.md)
+  * [第三章 笔迹](9-qiong-long-shi-ying/03.md)
+  * [第四章 找到了](9-qiong-long-shi-ying/04.md)
+  * [第五章 拍卖会](9-qiong-long-shi-ying/05.md)
