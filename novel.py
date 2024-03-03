@@ -26,7 +26,7 @@ def main():
         title_split = content.find('h1', class_='article-title').text.split(' ')
         cp_code = str(i)
         cp_code_cn = '第' + cn2an.an2cn(cp_code) + '章'
-        title = cp_code_cn + ' ' + title_split[2]
+        title = cp_code_cn
         # print(title)
         article = content.find('article', class_="article-content").text
         article = next_re.sub('', article)
