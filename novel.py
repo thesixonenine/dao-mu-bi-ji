@@ -10,8 +10,8 @@ file_name_re = re.compile("\\d{2}")
 
 
 def main():
-    article_link = "https://www.daomubiji.com/dajieju-0101.html"
-    sub_dir = '10-da-jie-ju'
+    article_link = "https://www.daomubiji.com/2015-01.html"
+    sub_dir = '11-2015'
     i = 1
     while len(article_link) != 0:
         head = {
@@ -39,8 +39,11 @@ def main():
             f.write(article)
         with open('SUMMARY.md', 'a', encoding='UTF-8', newline='\n') as f:
             f.write("  * [" + title + '](' + sub_dir + '/' + file_name + '.md)\n')
-        article_link = content.find('a', attrs={"rel": "next"}).attrs['href']
-        print(article_link)
+        try:
+            article_link = content.find('a', attrs={"rel": "next"}).attrs['href']
+        except:
+            break
+        print('next: ' + article_link)
         i = i + 1
 
 
